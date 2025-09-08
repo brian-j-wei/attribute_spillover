@@ -22,8 +22,8 @@ from GroundingDINO.groundingdino.util.utils import clean_state_dict
 from GroundingDINO.groundingdino.util.inference import load_image, predict
 
 # ---- SAM imports ----
-from segment_anything.segment_anything import SamPredictor
-from segment_anything.segment_anything.build_sam import build_sam_vit_b
+from segment_anything import SamPredictor
+from segment_anything.build_sam import build_sam_vit_b
 
 # ---- HF hub for DINO checkpoints ----
 from huggingface_hub import hf_hub_download
